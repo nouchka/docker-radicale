@@ -1,0 +1,8 @@
+sut:
+  build: .
+  entrypoint: /bin/true
+  ports:
+    - "5232:5232"
+  environment:
+    - RADICALE_USER=user
+    - RADICALE_PASSWORD=password
