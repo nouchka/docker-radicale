@@ -1,6 +1,6 @@
 FROM debian:jessie
 MAINTAINER Jean-Avit Promis "docker@katagena.com"
-LABEL org.label-schema.vcs-url="https://github.com/nouchka/docker-cloudflare-dyndns"
+LABEL org.label-schema.vcs-url="https://github.com/nouchka/docker-radicale"
 LABEL version="0.9"
 
 ENV DEBIAN_FRONTEND=noninteractive \
