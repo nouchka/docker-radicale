@@ -9,7 +9,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
 
 RUN apt-get update --fix-missing && \
 	apt-get update && \
-	apt-get install -y -q radicale apache2-utils
+	apt-get install -y -q radicale=0.9\* apache2-utils
 
 RUN mkdir -p /var/log/radicale/
 
